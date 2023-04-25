@@ -36,11 +36,11 @@ d3.dsv(';', 'data/dataset.csv', d3.autoType).then(data => {
         sort: {y: 'x', reverse:true},
       }),
       Plot.text(data2.filter(d=>d.diffHasta>100), {
-        x: d => d.diffHasta + 2, // position the text to the right of the bar
-        y: d => d.cant, // position the text at the center of the bar
-        text: d => d3.format('.0f')(d.diffHasta), // set the text to the value of mision_hs
+        x: d => d.diffHasta + 2,
+        y: d => d.cant,
+        text: d => d3.format('.0f')(d.diffHasta),
         fill: 'diffHasta',
-        textAnchor: 'start', // align the text to the left of the x position
+        textAnchor: 'start',
         fontWeight: 'bold',
         fontSize: 14,
       }),
@@ -59,21 +59,12 @@ d3.dsv(';', 'data/dataset.csv', d3.autoType).then(data => {
         tickFormat: null,
        
       }),
-      // Plot.text(data2, {
-      //   x: 'diffHasta',
-      //   y: 'cant',
-      //   text: ['Cantidad de denuncias →'],
-      //   fill: '#111111', 
-      //   dx: -10,
-      //   dy: 20,
-      // }),
     ],
     x: {
       domain: [1, d3.max(data2, d => d.diffHasta)],
     },
     color: {
       scheme: 'gnbu',
-      // pivot: 10,
       pivot: 55,
     },
     fontFamily: 'sans-serif',

@@ -1,5 +1,5 @@
-const mapaFch = d3.json('../data/barrios-caba.geojson')
-const dataFch = d3.dsv(';', '../data/dataset_dic.csv', d3.autoType)
+const mapaFch = d3.json('data/barrios-caba.geojson')
+const dataFch = d3.dsv(';', 'data/dataset_dic.csv', d3.autoType)
 
 Promise.all([mapaFch, dataFch]).then(([barrios, data]) => {
   

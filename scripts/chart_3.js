@@ -10,7 +10,7 @@
 // });
 // }
 
-d3.dsv(';', '../data/dataset_dic.csv', d3.autoType).then(data_dic => {
+d3.dsv(';', 'data/dataset_dic.csv', d3.autoType).then(data_dic => {
 
   var parseTime = d3.timeParse('%d/%m/%Y');
   data_dic.forEach(function(d) {

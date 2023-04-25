@@ -1,4 +1,4 @@
-d3.dsv(';', '../data/dataset.csv', d3.autoType).then(data => {
+d3.dsv(';', 'data/dataset.csv', d3.autoType).then(data => {
   data = data.filter(d => d.estado_del_contacto == 'Cerrado')
   data.forEach(function(d) {
     if (d.fecha_cierre_contacto.includes(" ")) {

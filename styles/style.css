@@ -244,7 +244,7 @@ hr {
     text-align: left;
 }
 #chart_1 svg {
-    max-width: 100%;
+    max-width: initial;
     margin-left: 80px;
     margin-right: 10px;
     margin-top: -20px;
@@ -252,18 +252,18 @@ hr {
     align-items: left;
 }
 #chart_2 svg {
-    max-width: 100%;
+    max-width: initial;
     margin-left: 130px;
-    margin-right: 10px;
+    margin-right: auto;
     margin-top: -20px;
     margin-bottom: 3em;
     align-items: center;
     text-align: center;
 }
 #chart_3 svg {
-    max-width: 100%;
+    max-width: initial;
     margin-left: 50px;
-    margin-top: 60px;
+    margin-top: 3em;
     margin-bottom: 3em;
     align-items: center;
 }

@@ -241,7 +241,7 @@ hr {
 .chart {
     margin: 0 auto;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 #chart_1 svg {
     max-width: 100%;

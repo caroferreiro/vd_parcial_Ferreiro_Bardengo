@@ -243,21 +243,34 @@ hr {
     display: block;
     text-align: center;
     align-items: center;
-    display: flex; 
-    justify-content: center;
+    /* display: flex;  */
+    /* justify-content: center;  */
 }
 #chart_1 svg {
     max-width: 100%;
     margin-top: -20px;
-    margin-bottom: 3em;
-    align-items: left;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+}
+#chart_1 {
+    align-items: center;
+    text-align: center;
     display: flex; 
     justify-content: center;
 }
 #chart_2 svg {
     max-width: 100%;
     margin-top: -20px;
-    margin-bottom: 3em;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+}
+#chart_2 {
     align-items: center;
     text-align: center;
     display: flex; 
@@ -266,11 +279,18 @@ hr {
 #chart_3 svg {
     max-width: 100%;
     margin-top: 60px;
-    margin-bottom: 3em;
+    margin-left: 50px;
+    margin-bottom: 20px;
     align-items: center;
+    /* display: flex; 
+    justify-content: center; */
+}
+/* #chart_3 {
+    align-items: center;
+    text-align: center;
     display: flex; 
     justify-content: center;
-}
+} */
 .num {
     font-family: 'Roboto', sans-serif;
     font-size: 13.5px;
@@ -284,7 +304,7 @@ hr {
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    margin-top: -375px;
+    margin-top: -365px;
     margin-left: 515px;
 }
 .footer{

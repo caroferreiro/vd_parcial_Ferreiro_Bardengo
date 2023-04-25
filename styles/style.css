@@ -242,19 +242,18 @@ hr {
     margin: 0 auto;
     display: block;
     text-align: center;
+    align-items: center;
+    display: flex; 
+    justify-content: center;
 }
 #chart_1 svg {
     max-width: 100%;
-    margin-left: 80px;
-    margin-right: 10px;
     margin-top: -20px;
     margin-bottom: 3em;
     align-items: left;
 }
 #chart_2 svg {
     max-width: 100%;
-    margin-left: 130px;
-    margin-right: 10px;
     margin-top: -20px;
     margin-bottom: 3em;
     align-items: center;
@@ -262,7 +261,6 @@ hr {
 }
 #chart_3 svg {
     max-width: 100%;
-    margin-left: 50px;
     margin-top: 60px;
     margin-bottom: 3em;
     align-items: center;

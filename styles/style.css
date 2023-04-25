@@ -2,7 +2,7 @@
     box-sizing: border-box;
 } 
 .fondo {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url(/imgs/fondo.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url(../imgs/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
